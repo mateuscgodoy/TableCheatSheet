@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>HTML Tables Cheat Sheet</title>
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/site.css">
+</head>
+
+<body>
+    <header>
+        <h1>HTML Tables Cheat Sheet</h1>
+        <p>A simple and quick cheat sheet for HTML tables, covering all the major features from this important tag.</p>
+    </header>
+    <main>
+        <div class="section-div">
+            <section class="code-section">
+                <h2>Code Layout</h2>
+                <small>Raw HTML structure.</small>
+                <p>
+                    &lt;<span class="tag">table</span>&gt; <br>
+                    <span class="indent-one">&lt;<span class="tag">thead</span></span> &gt; <br>
+                    <span class="indent-two"><span class="comment">&lt;!-- Row 1 --&gt;</span></span> <br>
+                    <span class="indent-two">&lt;<span class="tag">tr</span>&gt;</span> <br>
+                    <span class="indent-three">&lt;<span class="tag">th</span> colspan="3"&gt;Column Span of 3 on Table
+                        Head&lt;<span class="tag">/th</span>&gt;</span> <br>
+                    <span class="indent-two">&lt;<span class="tag">/tr</span>&gt;</span> <br>
+                    <span class="indent-two"><span class="comment">&lt;!-- Row 2 --&gt;</span></span> <br>
+                    <span class="indent-two">&lt;<span class="tag">tr</span>&gt;</span> <br>
+                    <span class="indent-three">&lt;<span class="tag">th</span>&gt;&lt;<span
+                            class="tag">/th</span>&gt;</span> <br>
+                    <span class="indent-three">&lt;<span class="tag">th</span>&gt;Head Header 1&lt;<span
+                            class="tag">/th</span>&gt;</span> <br>
+                    <span class="indent-three">&lt;<span class="tag">th</span>&gt;Head Header 2&lt;<span
+                            class="tag">/th</span>&gt;</span> <br>
+                    <span class="indent-two">&lt;<span class="tag">/tr</span>&gt;</span> <br>
+                    <span class="indent-one">&lt;<span class="tag">/thead</span>&gt;</span> <br>
+                    <span class="indent-one">&lt;<span class="tag">tbody</span>&gt;</span><br>
+                    <span class="indent-two"><span class="comment">&lt;!-- Row 3 --&gt;</span></span> <br>
+                    <span class="indent-two">&lt;<span class="tag">tr</span>&gt;</span><br>
+                    <span class="indent-three">&lt;<span class="tag">th</span>&gt;Body Header 1&lt;<span
+                            class="tag">/th</span>&gt;</span><br>
+                    <span class="indent-three">&lt;<span class="tag">td</span>&gt;Data 1&lt;<span
+                            class="tag">/td</span>&gt;</span><br>
+                    <span class="indent-three">&lt;<span class="tag">td</span> rowspan="2"&gt;Row Span of 2&lt;<span
+                            class="tag">/td</span>&gt;</span><br>
+                    <span class="indent-two">&lt;<span class="tag">/tr</span>&gt;</span><br>
+                    <span class="indent-two"><span class="comment">&lt;!-- Row 4 --&gt;</span></span><br>
+                    <span class="indent-two">&lt;<span class="tag">tr</span>&gt;</span><br>
+                    <span class="indent-three">&lt;<span class="tag">th</span>&gt; Body Header 2&lt;<span
+                            class="tag">/th</span>&gt;</span><br>
+                    <span class="indent-three">&lt;<span class="tag">td</span>&gt;Data 1&lt;<span
+                            class="tag">/td</span>&gt;</span><br>
+                    <span class="indent-two">&lt;<span class="tag">/tr</span>&gt;</span><br>
+                    <span class="indent-two"><span class="comment">&lt;!-- Row 5 --&gt;</span></span><br>
+                    <span class="indent-two">&lt;<span class="tag">tr</span>&gt;</span><br>
+                    <span class="indent-three">&lt;<span class="tag">th</span>&gt;Body Header 3&lt;<span
+                            class="tag">/th</span>&gt;</span><br>
+                    <span class="indent-three">&lt;<span class="tag">td</span>&gt;Data 1&lt;<span
+                            class="tag">/td</span>&gt;</span><br>
+                    <span class="indent-three">&lt;<span class="tag">td</span>&gt;Data 2&lt;<span
+                            class="tag">/td</span>&gt;</span><br>
+                    <span class="indent-two">&lt;<span class="tag">/tr</span>&gt;</span><br>
+                    <span class="indent-one">&lt;<span class="tag">/tbody</span>&gt;</span><br>
+                    <span class="indent-one">&lt;<span class="tag">tfoot</span>&gt;</span><br>
+                    <span class="indent-two"><span class="comment">&lt;!-- Row 6 --&gt;</span></span><br>
+                    <span class="indent-two">&lt;<span class="tag">tr</span>&gt;</span><br>
+                    <span class="indent-three">&lt;<span class="tag">th</span>&gt;Footer Header 1&lt;<span
+                            class="tag">/th</span>&gt;</span><br>
+                    <span class="indent-three">&lt;<span class="tag">td</span> colspan="2"&gt;Footer Column Span of
+                        2&lt;<span class="tag">/td</span>&gt;</span><br>
+                    <span class="indent-two">&lt;<span class="tag">/tr</span>&gt;</span><br>
+                    <span class="indent-one">&lt;<span class="tag">tfoot</span>&gt;</span><br>
+                    &lt;<span class="tag">/table</span>&gt;
+                </p>
+            </section>
+            <section class="table-section">
+                <h2>Table Layout</h2>
+                <small>HTML + CSS combined.</small>
+                <table>
+                    <thead>
+                        <!-- Row 1 -->
+                        <tr>
+                            <th class="table-highlight" colspan="3">Column Span of 3 on Table Head</th>
+                        </tr>
+
+                        <!-- Row 2 -->
+                        <tr>
+                            <th></th>
+                            <th>Head Header 1</th>
+                            <th>Head Header 2</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <!-- Row 3 -->
+                        <tr>
+                            <th>Body Header 1</th>
+                            <td>Data 1</td>
+                            <td rowspan="2">Row Span of 2</td>
+                        </tr>
+                        <!-- Row 4 -->
+                        <tr>
+                            <th> Body Header 2</th>
+                            <td>Data 1</td>
+                        </tr>
+                        <!-- Row 5 -->
+                        <tr>
+                            <th>Body Header 3</th>
+                            <td>Data 1</td>
+                            <td>Data 2</td>
+                        </tr>
+                    </tbody>
+                    <tfoot>
+                        <!-- Row 6 -->
+                        <tr>
+                            <th class="table-highlight">Footer Header 1</th>
+                            <td colspan="2">Footer Column Span of 2</td>
+                        </tr>
+                    </tfoot>
+                </table>
+            </section>
+        </div>
+    </main>
+
+    <footer>
+        <h6>Made by Mateus C. Godoy. &copy; All rights reserved, 2023. </h6>
+    </footer>
+</body>
+
+</html>

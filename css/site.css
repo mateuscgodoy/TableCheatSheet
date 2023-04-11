@@ -1,0 +1,119 @@
+html {
+    font-size: 22px;
+    width: 80%;
+    margin: 0 auto;
+}
+
+body {
+    line-height: 1.5;
+}
+
+header {
+    text-align: center;
+    font-family: 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin-bottom: 3rem;
+    margin-top: 2rem;
+}
+
+header p {
+    font-style: italic;
+    font-size: 1.25rem;
+    margin-top: 1rem;
+}
+
+h1 {
+    font-size: 3rem;
+}
+
+h2 {
+    font-size: 2rem;
+}
+
+h6 {
+    font-size: .80rem;
+}
+
+footer {
+    color: #fff;
+    background-color: #000;
+    text-align: center;
+    padding: .4rem 0;
+}
+
+section h2 {
+    text-align: center;
+    font-family: 'Segoe UI', sans-serif;
+}
+
+section small {
+    font-style: italic;
+    font-weight: bold;
+    font-size: .85rem;
+    font-family: 'Segoe UI', sans-serif;
+}
+
+.section-div {
+    display: flex;
+    justify-content: center;
+}
+
+.section-div section {
+    margin: 0 10px;
+}
+
+
+
+.code-section {
+    font-family: 'Segoe UI', sans-serif;
+}
+
+.code-section p {
+    color: #fff;
+    background-color: rgba(0, 0, 0, 0.90);
+    line-height: 1.25;
+    padding: 0 20px;
+}
+
+.tag {
+    color: rgb(92, 118, 247);
+    font-weight: bold;
+}
+
+.comment {
+    color: olive;
+}
+
+.indent-one {
+    padding-left: 1rem;
+}
+
+.indent-two {
+    padding-left: 2rem;
+}
+
+.indent-three {
+    padding-left: 3rem;
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+th,
+td {
+    padding: 10px;
+    text-align: left;
+    border: 1px solid #ddd;
+}
+
+th {
+    background-color: #f2f2f2;
+    font-weight: bold;
+}
+
+.table-highlight {
+    background-color: rgb(225, 35, 35);
+    text-align: center;
+    color: white;
+}
